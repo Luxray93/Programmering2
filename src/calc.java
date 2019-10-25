@@ -47,13 +47,13 @@ public class calc extends Application{
 		root.getChildren().add(sex);
 		
 		Button sju = new Button("7");
-		sju.setTranslateX(80);
-		sju.setTranslateY(0);
+		sju.setTranslateX(0);
+		sju.setTranslateY(80);
 		root.getChildren().add(sju);
 		
 		Button atta = new Button("8");
-		atta.setTranslateX(80);
-		atta.setTranslateY(40);
+		atta.setTranslateX(40);
+		atta.setTranslateY(80);
 		root.getChildren().add(atta);
 		
 		Button nio = new Button("9");
@@ -62,18 +62,18 @@ public class calc extends Application{
 		root.getChildren().add(nio);
 		
 		Button plus = new Button("+");
-		plus.setTranslateX(120);
-		plus.setTranslateY(0);
+		plus.setTranslateX(0);
+		plus.setTranslateY(120);
 		root.getChildren().add(plus);
 		
 		Button noll = new Button("0");
-		noll.setTranslateX(120);
-		noll.setTranslateY(40);
-		root.getChildren().add(plus);
+		noll.setTranslateX(40);
+		noll.setTranslateY(120);
+		root.getChildren().add(noll);
 		
 		Button lika = new Button("=");
-		lika.setTranslateX(120);
-		lika.setTranslateY(8);
+		lika.setTranslateX(80);
+		lika.setTranslateY(120);
 		root.getChildren().add(lika);
 		
 		
